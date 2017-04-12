@@ -10,7 +10,8 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-    /**
+	
+   /**
      * Create the test case
      *
      * @param testName name of the test case
@@ -33,6 +34,9 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	System.out.println("Test du max !");
+    	assertEquals(5, App.max(4,5));
+    	assertEquals(5, App.max(5,4));
     }
+    
 }
